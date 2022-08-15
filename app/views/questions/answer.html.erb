@@ -1,0 +1,15 @@
+
+<h1>Stupid Coaching</h1>
+<div style='width: 80%'>
+  <ul class="border-left">
+    <li><%= params[:question] %></li>
+    <li><%= '-You' %></li>
+  </ul>
+  <ul class="light-yellow border ">
+    <li><%= @answer %></li>
+    <li><%= '-Your coach' %></li>
+  </ul>
+  <p>
+  <%= link_to 'Ask a new question', ask_path %>
+  </p>
+</div>
